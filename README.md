@@ -1,2 +1,2 @@
 # C-.NETProject
-:c: This repository is dedicated for my C# .NET project.
+📖: This repository is dedicated for my C# .NET project.
