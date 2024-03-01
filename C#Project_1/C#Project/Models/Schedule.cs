@@ -13,9 +13,10 @@ namespace C_Project.Models
         public string Description { get; set; }
         public string Data { get; set; }
 
+        // Método que Agenda uma consulta
         private void ScheduleAppointment()
         {
-            Console.WriteLine("Schedule with success!");
+            Console.WriteLine("Agendado com sucesso!");
         }
 
 

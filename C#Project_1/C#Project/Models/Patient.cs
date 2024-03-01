@@ -32,6 +32,7 @@ namespace C_Project.Models
             Email = email;
         }
 
+        // Método para mostrar os dados do usuário
         public void ShowPatientData()
         {
             Console.WriteLine("Dados do usuário:");

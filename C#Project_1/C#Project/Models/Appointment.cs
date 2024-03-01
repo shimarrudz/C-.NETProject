@@ -22,11 +22,17 @@ namespace C_Project.Models
             Status = "Agendada";
         }
 
+        // Método para verificar e exibir o status da consulta
         internal void AppointmentStatus()
         {
+            Console.WriteLine("Verificando o status da consulta...");
             if (Status == "Agendada")
             {
-                Console.WriteLine("Agendado com sucesso!");
+                Console.WriteLine("A consulta está agendada.");
+            }
+            else
+            {
+                Console.WriteLine("O status da consulta é: " + Status);
             }
         }
     }
